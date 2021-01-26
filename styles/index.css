@@ -1,5 +1,5 @@
 .logo {
-    font-family: Coda Caption;
+    font-family: 'Coda Caption', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
@@ -17,7 +17,7 @@
 
 nav {
     /* check what styles the links will have */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -30,7 +30,7 @@ nav {
 
 .list-1 {
     margin-top: 48px;
-    margin-left: 273px;
+    margin-left: 272px;
 }
 
 .list-2 {
@@ -50,6 +50,80 @@ nav {
 
 .list-5 {
     margin-top: 48px;
+    margin-right: 40px;
     margin-left: 752px;
 }
+
+.sign-button {
+    width: 120px;
+    height: 60px;
+    background-color: #824FF1;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-right: 67px;
+    margin-left: 1412px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+section {
+    display: inline-block;
+}
+
+.main-title {
+    max-width: 509px;
+    width: 100%;
+    margin-top: 192px;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main-info {
+    max-width: 590px;
+    width: 100%;
+    margin-top: -7px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+.info-button {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #824FF1;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+
+
 
